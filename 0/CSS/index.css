@@ -1,0 +1,211 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'VictorMono-Bold';
+    src: url(../fonts/VictorMono-Bold_0.ttf);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-family: Times New Roman;
+    
+}
+
+.maintitle {
+    color: whitesmoke;
+}
+
+
+body {
+    background: url(../media/NotJS\ background.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+.navbar {
+    user-select: none;
+}
+
+footer, .navbar { 
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 15px 35px rgb(0, 0, 0);
+
+}
+
+section img {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 15%;
+    height: 70px;
+}
+
+
+.main, .second {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    user-select: none;
+    
+}
+
+.c1:active {
+    background: black;
+    background-image: url(../media/ISO_C++_Logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+
+.c2:active {
+    background: black;
+    background-image: url(../media/java\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+
+.c3:active {
+    background: black;
+    background-image: url(../media/JavaScript-logo.png);
+    background-size: contain;
+    background-repeat: repeat;
+    
+}
+
+.c4:active {
+    background: black;
+    background-image: url(../media/Python-logo-notext.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+
+.c5:active {
+    background: black;
+    background-image: url(../media/JavaScript-logo.png);
+    background-size: contain;
+    background-repeat: repeat;
+    
+}
+
+.c6:active {
+    background: black;
+    background-image: url(../media/ISO_C++_Logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+
+.c7:active {
+    background: black;
+    background-image: url(../media/Python-logo-notext.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+   
+}
+
+.c8:active {
+    background: black;
+    background-image: url(../media/java\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+
+.main button, .second button {
+    cursor: pointer;
+    width: 72px;
+    height: 95px;
+    border-radius: 15%;
+    margin-right: 15px;
+    border-radius: 15%;
+    border: 5px solid white;
+    background-image: url(../media/NotResolvedCard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.main button:disabled, .second button:disabled {
+    background: black;
+    position: relative;
+    z-index: +1;
+    text-transform: uppercase;
+}
+
+/* transform: rotate3d(1, 180, 0, 180deg); */
+
+.main button:active, .second button:active {
+    transform: translateY(5px);
+    
+}
+
+.main {
+    padding: 100px 0px 10px 0px;
+}
+
+.second {
+    padding: 0px 0px 100px 0px;
+}
+
+.main img, .second img {
+    margin-right: 1rem;
+    height: 70px;
+    width: 60px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f6b93b;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.another, .social {
+    display: flex;
+    margin: 3rem;
+    text-align: center;
+    
+}
+
+.socialmedia img, .socialmedia a {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.socialmedia {
+    margin-top: 25%
+}
+
+.socialmedia img {
+    width: 25px
+}
+
+.socialmedia a, .another p{
+    color:rgb(0, 0, 0);
+    font-family: 'VictorMono-Bold'
+}
+
+
+
+
